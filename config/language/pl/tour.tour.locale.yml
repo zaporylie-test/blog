@@ -1,0 +1,23 @@
+label: Tłumaczenie
+tips:
+  locale-overview:
+    label: 'Tłumaczenie interfejsu użytkownika'
+  locale-language:
+    label: 'Język tłumaczenia'
+    body: 'Wybierz język który chcesz tłumaczyć.'
+  locale-search:
+    label: Szukaj
+    body: 'Wpisz określone słowo lub zdanie, które chcesz przetłumaczyć; można także wpisać fragment słowa.'
+  locale-filter:
+    label: 'Przefiltruj wyniki wyszukiwania'
+  locale-submit:
+    label: 'Zastosuj swoje kryteria wyszukiwania'
+    body: 'Żeby zastosować swoje kryteria wyświetlania, kliknij przycisk <em>Filtruj</em>.'
+  locale-translate:
+    label: Tłumaczenia
+    body: 'Możesz wprowadzić własne tłumaczenia w pola tekstowe prawej kolumny. Musisz spróbować domyślić się w jakim kontekście wykorzystany będzie tekst, tak żeby przetłumaczyć go najlepiej jak to możliwe.'
+  locale-validate:
+    label: 'Potwierdź tłumaczenie'
+    body: 'Kiedy skończysz tłumaczyć, kliknij na przycisk <em>Zapisz tłumaczenia</em>. Musisz je zapisać, przed każdą zmianą strony lub nowym wyszukiwaniem.'
+  locale-continue:
+    body: 'Wprowadzone przez ciebie tłumaczenia będą wykorzystywane na twojej witrynie. Jeżeli chcesz ich używać na innej witrynie, lub chcesz użyć zewnętrznego programu do tłumaczeń, możesz <a href="[site:url]admin/config/regional/translate/export">je eksportować</a> do pliku .po a następnie <a href="[site:url]admin/config/regional/translate/import">zaimportować je</a> później.'
