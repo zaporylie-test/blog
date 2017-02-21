@@ -1,0 +1,24 @@
+uuid: baea26cf-08ca-4a8c-b0db-004968e31da2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__upcoming_events_block_1
+theme: bootstrap
+region: footer
+weight: -6
+provider: null
+plugin: 'views_block:upcoming_events-block_1'
+settings:
+  id: 'views_block:upcoming_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
