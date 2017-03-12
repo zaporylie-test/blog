@@ -1,0 +1,30 @@
+/**
+ * Node styling.
+ */
+
+.node-preview-container {
+  margin-top: -($grid-gutter-width / 2);
+}
+
+.node-preview-form-select {
+  padding: ($grid-gutter-width / 2);
+}
+
+article.node {
+  footer {
+    margin-top: 3em;
+    background-color: $gray-lighter;
+    color: $gray;
+    padding: 1em;
+    text-align: right;
+  }
+  .links {
+    text-align: right;
+    margin-top: 2em;
+    a {
+      border: 1px solid $primary-color;
+      padding: .5em 1em;
+      border-radius: 2px;
+    }
+  }
+}
