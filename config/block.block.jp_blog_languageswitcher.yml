@@ -8,7 +8,7 @@ dependencies:
     - jp_blog
 id: jp_blog_languageswitcher
 theme: jp_blog
-region: header
+region: footer
 weight: -6
 provider: null
 plugin: 'language_block:language_interface'

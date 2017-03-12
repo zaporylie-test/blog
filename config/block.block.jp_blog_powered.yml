@@ -11,7 +11,7 @@ _core:
 id: jp_blog_powered
 theme: jp_blog
 region: footer
-weight: -5
+weight: -4
 provider: null
 plugin: system_powered_by_block
 settings:

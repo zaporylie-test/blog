@@ -9,7 +9,7 @@ _core:
 id: jp_blog_local_tasks
 theme: jp_blog
 region: header
-weight: -2
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:
