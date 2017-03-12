@@ -1,0 +1,20 @@
+uuid: 1de9ae4b-174a-4dc7-a386-e911989fca62
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: jp_blog_local_actions
+theme: jp_blog
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

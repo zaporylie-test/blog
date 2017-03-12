@@ -1,0 +1,22 @@
+uuid: b1146122-6f5d-4f15-b014-5bf70391e65c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: jp_blog_local_tasks
+theme: jp_blog
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

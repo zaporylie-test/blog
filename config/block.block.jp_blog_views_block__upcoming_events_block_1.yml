@@ -1,0 +1,24 @@
+uuid: f2e6a154-df26-423d-9239-a53c23d3d143
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.upcoming_events
+  module:
+    - views
+  theme:
+    - jp_blog
+id: jp_blog_views_block__upcoming_events_block_1
+theme: jp_blog
+region: footer
+weight: -6
+provider: null
+plugin: 'views_block:upcoming_events-block_1'
+settings:
+  id: 'views_block:upcoming_events-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

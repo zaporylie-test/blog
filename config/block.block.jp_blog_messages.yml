@@ -1,0 +1,22 @@
+uuid: df0459d3-2f6d-4044-b164-e2b500dcb0ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: jp_blog_messages
+theme: jp_blog
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

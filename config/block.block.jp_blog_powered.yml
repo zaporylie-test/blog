@@ -1,0 +1,22 @@
+uuid: 8548545d-fd40-4fe4-b3eb-c06c80a61d49
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: jp_blog_powered
+theme: jp_blog
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

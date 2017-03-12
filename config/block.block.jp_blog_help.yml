@@ -1,0 +1,22 @@
+uuid: 15c4b37f-4c3e-4497-9c18-605569314114
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: jp_blog_help
+theme: jp_blog
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

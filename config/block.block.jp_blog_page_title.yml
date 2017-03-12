@@ -1,0 +1,20 @@
+uuid: c4588d70-81a3-4941-b6cc-13cb870a812a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jp_blog
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: jp_blog_page_title
+theme: jp_blog
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
