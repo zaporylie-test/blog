@@ -5,7 +5,7 @@ workflow "Deploy to production" {
 
 action "filter" {
   uses = "actions/bin/filter@d820d56839906464fb7a57d1b4e1741cf5183efa"
-  args = "branch 2.x"
+  args = "branch test-fork"
 }
 
 action "deploy" {
